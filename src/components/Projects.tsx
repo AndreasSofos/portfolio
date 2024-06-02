@@ -16,7 +16,7 @@ export default function Projects() {
             <div className="flex items-center justify-between flex-col lg:flex-row">
               <video
                 src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewUser.mp4"
-                className="relative pointer-events-none mx-auto bottom-[-2px] lg:bottom-0  lg:right-[-3px] rounded-md  lg:rounded-r-none w-full lg:w-[50%] object-cover object-top"
+                className="relative pointer-events-none mx-auto bottom-[-1.7px] lg:bottom-0  lg:right-[-3px] rounded-sm  sm:rounded-md  lg:rounded-r-none w-full lg:w-[50%] object-cover object-top"
                 autoPlay
                 muted
                 loop
@@ -24,7 +24,7 @@ export default function Projects() {
               ></video>
               <video
                 src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewAdmin.mp4"
-                className="relative pointer-events-none mx-auto top-[-2px] lg:top-0 lg:left-[-3px] rounded-md  lg:rounded-l-none w-full lg:w-[50%] object-cover object-top"
+                className="relative pointer-events-none mx-auto top-[-1.7px] lg:top-0 lg:left-[-3px] rounded-sm  sm:rounded-md  lg:rounded-l-none w-full lg:w-[50%] object-cover object-top"
                 autoPlay
                 muted
                 loop
