@@ -39,8 +39,8 @@ export default function Projects() {
                 <div className="max-w-full text-pretty font-sans text-sm text-muted-foreground">
                   As a solo developer, I designed and developed a booking platform for a client in the barber industry. The platform allows
                   customers to book appointments, get a personalized email confirmation and a reminder email before the appointment. The
-                  platform also allows the client to manage their appointments, customers , services, working hours and more. The platform
-                  is a full stack application hosted on Vercel and built with tools listed below.
+                  platform also allows the client to manage appointments, customers , services, working hours and more. The platform is a
+                  full stack application hosted on Vercel and built with tools listed below.
                 </div>
               </div>
             </div>
