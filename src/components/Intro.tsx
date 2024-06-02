@@ -9,10 +9,10 @@ export default function Intro() {
           className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none
           "
         >
-          Hi, I'm Andreas Sofos 👋
+          Hi, I&apos;m Andreas Sofos 👋
         </h1>
         <span className="max-w-[600px] md:text-xl">
-          I'm a passionate software engineer with an interest in
+          I&apos;m a passionate software engineer with an interest in
           <div className="overflow-hidden py-2 text-md">
             <WordRotate
               words={[
