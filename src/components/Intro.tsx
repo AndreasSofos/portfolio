@@ -3,7 +3,7 @@ import WordRotate from './magicui/word-rotate'
 
 export default function Intro() {
   return (
-    <div className="flex flex-wrap justify-between w-full max-w-[1200px] h-[100vh] gap-10 items-center px-5">
+    <div className="flex flex-wrap justify-between w-full max-w-[1200px] h-[100vh] gap-2 md:gap-10 items-center px-5">
       <div className="space-y-2">
         <h1
           className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none
@@ -78,7 +78,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <div className="max-w-[400px]">
+      <div className="flex max-w-[420px] w-[100vw] max-h-[360px] items-center m-auto">
         <IconCloud
           iconSlugs={[
             'react',

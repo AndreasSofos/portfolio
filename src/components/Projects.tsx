@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
-    <div className="w-full h-[100vh] px-2 sm:px-10 py-12 flex justify-center" id="projects">
-      <div className="container space-y-12 px-4 md:px-6">
+    <div className="w-full min-h-[100vh] h-full  px-2 sm:px-10 py-[80px] mb-0 flex justify-center items-center" id="projects">
+      <div className="container space-y-12 px-4 md:px-6 h-fit">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm ">My Projects</div>
@@ -11,12 +11,26 @@ export default function Projects() {
             </p> */}
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-3  max-w-[800px] mx-auto">
+        <div className="grid grid-cols-1 gap-3  max-w-[1000px] mx-auto">
           <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border p-2">
-            <video
-              src="public/videos/IzyManiCutsPreviewUser.mp4"
-              className="pointer-events-none mx-auto w-full object-cover object-top"
-            ></video>
+            <div className="flex items-center justify-between flex-col lg:flex-row">
+              <video
+                src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewUser.mp4"
+                className="relative pointer-events-none mx-auto bottom-[-2px] lg:bottom-0  lg:right-[-3px] rounded-md  lg:rounded-r-none w-full lg:w-[50%] object-cover object-top"
+                autoPlay
+                muted
+                loop
+                playsInline
+              ></video>
+              <video
+                src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewAdmin.mp4"
+                className="relative pointer-events-none mx-auto top-[-2px] lg:top-0 lg:left-[-3px] rounded-md  lg:rounded-l-none w-full lg:w-[50%] object-cover object-top"
+                autoPlay
+                muted
+                loop
+                playsInline
+              ></video>
+            </div>
             <div className="flex flex-col">
               <div className="space-y-1">
                 <h3 className="font-semibold tracking-tight mt-1 text-base">Booking Platform</h3>
@@ -69,9 +83,9 @@ export default function Projects() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="lucide lucide-globe h-4 w-4"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
