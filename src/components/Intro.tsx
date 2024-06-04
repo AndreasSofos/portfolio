@@ -1,5 +1,6 @@
 import IconCloud from './magicui/icon-cloud'
 import WordRotate from './magicui/word-rotate'
+import { Linkedin, Mail, MessageSquareText, Github } from 'lucide-react'
 
 export default function Intro() {
   return (
@@ -53,6 +54,36 @@ export default function Intro() {
             >
               <path d="m9 18 6-6-6-6"></path>
             </svg>
+          </a>
+        </div>
+        <div className="relative flex gap-[13px] pt-2">
+          <a
+            href="https://www.linkedin.com/in/andreassofos/"
+            target="_blank"
+            className="text-2xl text-primary border-2 border-primary rounded-md p-1 hover:bg-primary hover:text-primary-foreground"
+          >
+            <Linkedin />
+          </a>
+          <a
+            href="https://github.com/AndreasSofos"
+            target="_blank"
+            className="text-2xl text-primary  border-2 border-primary rounded-md p-1 hover:bg-primary hover:text-primary-foreground"
+          >
+            <Github />
+          </a>
+          <a
+            href="mailto:andreasasofos@gmail.com"
+            target="_blank"
+            className="text-2xl text-primary  border-2 border-primary rounded-md p-1 hover:bg-primary hover:text-primary-foreground"
+          >
+            <Mail />
+          </a>
+          <a
+            href="sms:+306974672807?body=Hello Andreas! I found your contact through your website."
+            target="_blank"
+            className="text-2xl text-primary  border-2 border-primary rounded-md p-1 hover:bg-primary hover:text-primary-foreground"
+          >
+            <MessageSquareText />
           </a>
         </div>
       </div>
