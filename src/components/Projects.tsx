@@ -1,3 +1,5 @@
+import { Suspense } from 'react'
+
 export default function Projects() {
   return (
     <div className="w-full min-h-[100vh] h-full  px-2 sm:px-10 py-[80px] mb-0 flex justify-center items-center" id="projects">
@@ -14,22 +16,28 @@ export default function Projects() {
         <div className="grid grid-cols-1 gap-3  max-w-[1000px] mx-auto">
           <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border p-2">
             <div className="flex items-center justify-between flex-col lg:flex-row">
-              <video
-                src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewUser.mp4"
-                className="relative pointer-events-none mx-auto bottom-[-1.7px] lg:bottom-0  lg:right-[-3px] rounded-sm  sm:rounded-md  lg:rounded-r-none w-full lg:w-[50%] object-cover object-top"
-                autoPlay
-                muted
-                loop
-                playsInline
-              ></video>
-              <video
-                src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewAdmin.mp4"
-                className="relative pointer-events-none mx-auto top-[-1.7px] lg:top-0 lg:left-[-3px] rounded-sm  sm:rounded-md  lg:rounded-l-none w-full lg:w-[50%] object-cover object-top"
-                autoPlay
-                muted
-                loop
-                playsInline
-              ></video>
+              <Suspense fallback={<div className="w-full h-full bg-gray-200 animate-pulse rounded-md" />}>
+                <video
+                  src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewUser.mp4"
+                  className="relative pointer-events-none mx-auto bottom-[-1.7px] lg:bottom-0  lg:right-[-3px] rounded-sm  sm:rounded-md  lg:rounded-r-none w-full lg:w-[50%] object-cover object-top"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="auto"
+                />
+              </Suspense>
+              <Suspense fallback={<div className="w-full h-full bg-gray-200 animate-pulse rounded-md" />}>
+                <video
+                  src="https://www.andrewsofos.com/videos/IzyManiCutsPreviewAdmin.mp4"
+                  className="relative pointer-events-none mx-auto top-[-1.7px] lg:top-0 lg:left-[-3px] rounded-sm  sm:rounded-md  lg:rounded-l-none w-full lg:w-[50%] object-cover object-top"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="auto"
+                />
+              </Suspense>
             </div>
             <div className="flex flex-col">
               <div className="space-y-1">
