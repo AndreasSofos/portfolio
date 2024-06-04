@@ -46,7 +46,7 @@ export default function Intro() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
               className="lucide lucide-chevron-right h-4 w-4 translate-x-0 transform transition-all duration-300 ease-out group-hover:translate-x-1"
@@ -54,27 +54,6 @@ export default function Intro() {
               <path d="m9 18 6-6-6-6"></path>
             </svg>
           </a>
-          {/* <a
-            target="_blank"
-            className="inline-flex items-center justify-center transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80 h-10 px-8 whitespace-pre md:flex group relative gap-1 overflow-hidden rounded-full text-base font-semibold tracking-tighter"
-            href="mailto:hello@example.com"
-          >
-            Contact Me
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="lucide lucide-chevron-right h-4 w-4 translate-x-0 transform transition-all duration-300 ease-out group-hover:translate-x-1"
-            >
-              <path d="m9 18 6-6-6-6"></path>
-            </svg>
-          </a> */}
         </div>
       </div>
 
