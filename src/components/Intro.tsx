@@ -37,6 +37,7 @@ export default function Intro() {
                 whitespace-pre md:flex group relative gap-1 overflow-hidden
                 rounded-lg text-base font-semibold tracking-tighter transform-gpu
                 ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-2
+                w-[232px]
               "
             href="#projects"
           >
@@ -57,7 +58,7 @@ export default function Intro() {
             </svg>
           </a>
         </div>
-        <div className="relative flex gap-[13px] pt-2">
+        <div className="relative w-fit flex gap-[13px] pt-2">
           <Link
             href="https://www.linkedin.com/in/andreassofos/"
             target="_blank"
@@ -73,7 +74,7 @@ export default function Intro() {
             <Github />
           </Link>
           <Link
-            href="/public/files/Andreas Sofos CV.pdf"
+            href="https://www.andrewsofos.com/files/Andreas%20Sofos%20CV.pdf"
             target="_blank"
             className="text-2xl text-primary  border-2 border-primary rounded-md p-1 hover:bg-primary hover:text-primary-foreground"
           >
