@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import IconCloud from './magicui/icon-cloud'
 import WordRotate from './magicui/word-rotate'
-import { Linkedin, Mail, MessageSquareText, Github } from 'lucide-react'
+import { Linkedin, Mail, MessageSquareText, Github, File } from 'lucide-react'
 
 export default function Intro() {
   return (
@@ -72,6 +72,14 @@ export default function Intro() {
           >
             <Github />
           </Link>
+          <Link
+            href="/public/files/Andreas Sofos CV.pdf"
+            target="_blank"
+            className="text-2xl text-primary  border-2 border-primary rounded-md p-1 hover:bg-primary hover:text-primary-foreground"
+          >
+            <File />
+          </Link>
+
           <Link
             href="mailto:andreasasofos@gmail.com"
             target="_blank"
